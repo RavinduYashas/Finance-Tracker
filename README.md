@@ -10,6 +10,7 @@ An Android app built using Kotlin to track income and expenses.
 
 ## Screenshots
 ### Home Screen
+<img src="images/Screenshot_20250501_124020.png" alt="Home" width="300"/>
 ![Home](images/Screenshot_20250501_124020.png){width=300}
 
 ### Add Transaction
