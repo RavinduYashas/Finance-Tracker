@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomListViewStyle">
+        <!-- Set ListView width to match parent -->
+        <item name="android:layout_width">match_parent</item>
+
+        <!-- Set ListView height to take 80% of the screen height -->
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">4</item>
+
+        <!-- Set margin at the top -->
+        <item name="android:layout_marginTop">15dp</item>
+
+        <!-- Set the divider color and height -->
+        <item name="android:divider">@android:color/darker_gray</item>
+        <item name="android:dividerHeight">1dp</item>
+
+        <!-- Optional: set padding for ListView items -->
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+
+        <!-- Optional: set background color of ListView -->
+        <item name="android:background">@android:color/white</item>
+    </style>
+</resources>

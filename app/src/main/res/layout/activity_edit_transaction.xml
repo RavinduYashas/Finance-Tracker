@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_remaining_box3"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="379dp"
+            android:layout_height="51dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="#0027403B"
+            android:text="Update Transactions"
+            android:textColor="#FAF9F9"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="10dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:hint="Title"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etAmount"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="10dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:hint="Amount"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etCategory"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="10dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:hint="Category"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="10dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:hint="Date"
+            android:inputType="date" />
+
+        <Button
+            android:id="@+id/btnSaveTransaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#0D2B1B"
+            android:text="Save" />
+    </LinearLayout>
+
+</LinearLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="16dp">-->
+
+<!--    &lt;!&ndash; Title Field &ndash;&gt;-->
+<!--    <EditText-->
+<!--        android:id="@+id/etTitle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Title"-->
+<!--        android:inputType="text" />-->
+
+<!--    &lt;!&ndash; Amount Field &ndash;&gt;-->
+<!--    <EditText-->
+<!--        android:id="@+id/etAmount"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Amount"-->
+<!--        android:inputType="numberDecimal" />-->
+
+<!--    &lt;!&ndash; Category Field &ndash;&gt;-->
+<!--    <EditText-->
+<!--        android:id="@+id/etCategory"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Category"-->
+<!--        android:inputType="text" />-->
+
+<!--    &lt;!&ndash; Date Field &ndash;&gt;-->
+<!--    <EditText-->
+<!--        android:id="@+id/etDate"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Date"-->
+<!--        android:inputType="date" />-->
+
+<!--    &lt;!&ndash; Save Button &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/btnSaveTransaction"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Save" />-->
+
+<!--</LinearLayout>-->
+
+<!--    &lt;!&ndash;<?xml version="1.0" encoding="utf-8"?>&ndash;&gt;-->
+<!--&lt;!&ndash;<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"&ndash;&gt;-->
+<!--&lt;!&ndash;    xmlns:app="http://schemas.android.com/apk/res-auto"&ndash;&gt;-->
+<!--&lt;!&ndash;    xmlns:tools="http://schemas.android.com/tools"&ndash;&gt;-->
+<!--&lt;!&ndash;    android:id="@+id/main"&ndash;&gt;-->
+<!--&lt;!&ndash;    android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;    android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;    tools:context=".EditTransaction">&ndash;&gt;-->
+
+<!--&lt;!&ndash;</androidx.constraintlayout.widget.ConstraintLayout>&ndash;&gt;-->

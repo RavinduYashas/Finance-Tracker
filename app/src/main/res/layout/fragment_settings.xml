@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F4F4"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="24dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="359dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_remaining_box3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="214dp"
+                android:layout_height="49dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Settings"
+                android:textColor="#FAFAFA"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B9B8BF"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:paddingBottom="24dp">
+
+            <!-- User Info -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="187dp"
+                android:background="#F2F2F2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#F2F2F2"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="90dp"
+                        android:layout_height="62dp"
+                        app:srcCompat="@drawable/account" />
+
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/btnLogout"
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:backgroundTint="#C62828"
+                        android:padding="12dp"
+                        android:text="Logout"
+                        android:textColor="#FFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvProfileEmail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:text="Email: user@example.com"
+                            android:textColor="#101010"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tvProfilePassword"
+                            android:layout_width="231dp"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:text="Password: ********"
+                            android:textColor="#101010"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--            <Button-->
+<!--                android:id="@+id/btnSaveCurrency"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:background="#022619"-->
+<!--                android:text="Save Currency" />-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_remaining_box4"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/spinnerCurrency"
+                    android:layout_width="305dp"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="16dp" />
+
+                <Button
+                    android:id="@+id/btnSaveCurrency"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="12dp"
+                    android:backgroundTint="#022619"
+                    android:text="Save Currency"
+                    android:textColor="#FFF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="294dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_remaining_box4"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/etBudget"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/edittext_background"
+                    android:hint="Set Monthly Budget"
+                    android:inputType="numberDecimal"
+                    android:padding="16dp"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnSaveBudget"
+                    android:layout_width="201dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="16dp"
+                    android:backgroundTint="#A68524"
+                    android:text="Save Budget"
+                    android:textColor="#FFF" />
+
+                <Button
+                    android:id="@+id/btnExportData"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="12dp"
+                    android:backgroundTint="#27403B"
+                    android:text="Export Data"
+                    android:textColor="#FFF" />
+
+                <Button
+                    android:id="@+id/btnImportData"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="12dp"
+                    android:backgroundTint="#022619"
+                    android:text="Import Data"
+                    android:textColor="#FFF" />
+            </LinearLayout>
+
+            <!-- Budget Input -->
+
+            <!-- Buttons -->
+
+            <!-- Logout -->
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

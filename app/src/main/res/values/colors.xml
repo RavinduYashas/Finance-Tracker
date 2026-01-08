@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="DarkWite">#B9B8BF</color>
+    <color name="Green">#27403B</color>//60% //primary colour
+    <color name="DrakGreen">#022619</color>//40% //Secondary colour
+    <color name="Gold">#A68524</color> //10% //Accent colour
+    <color name="Whit">#F2F2F2</color>
+
+</resources>
