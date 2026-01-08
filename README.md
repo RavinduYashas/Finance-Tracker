@@ -9,27 +9,19 @@ An Android app built using Kotlin to track income and expenses.
 - Category management
 
 ## Screenshots
-### Home Screen
+
 <div>
-<img src="images/Screenshot_20250501_124020.png" alt="Home" width="300" style="float:left; margin-right:10px"/>
+  ### Home Screen
+<img src="images/Screenshot_20250501_124020.png" alt="Home" width="200" style="float:left; margin-right:10"/>
 
-<img src="images/Screenshot_20250501_124201.png" alt="Home" width="300" style="float:left; margin-right:10px"/>
+<img src="images/Screenshot_20250501_124201.png" alt="Home" width="200" style="float:left; margin-right:20px"/>
 
-<img src="images/Screenshot_20250501_125323.png" alt="Home" width="300" style="float:left; margin-right:10px" />
+<img src="images/Screenshot_20250501_125323.png" alt="Home" width="200" style="float:left; margin-right:10px" />
 
-<img src="images/Screenshot_20250501_125341.png" alt="Home" width="300" style="float:left; " />
+<img src="images/Screenshot_20250501_125341.png" alt="Home" width="200" style="float:left; " />
   
 </div>
 
-
-### Add Transaction
-![Add Transaction](images/Screenshot_20250501_124201.png){width=300}
-
-### View/Edit Transaction
-![View/Edit](images/Screenshot_20250501_125323.png){width=300}
-
-### View/Edit Transaction
-![View/Edit](images/Screenshot_20250501_125341.png){width=300}
 
 ## Tech Stack
 - Kotlin
